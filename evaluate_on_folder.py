@@ -19,12 +19,9 @@ import cv2
 from PIL import Image
 import numpy as np
 
-# import clip
-# from freq_rec import *
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-# from wavelet_vae import *
-# from vae_diffusion import *
-from idea1_2_vae import *
+
+from freq_reconstruction import *
 import lpips
 from skimage.metrics import peak_signal_noise_ratio as psnr
 
