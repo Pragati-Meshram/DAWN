@@ -1,4 +1,4 @@
-## DAWN 
+## Dual Domain Regeneration Attack  
 
 This repository contains code to run single-shot attacks on watermarked images.  
 Files of interest:
@@ -10,7 +10,7 @@ Files of interest:
 
 ## Quick overview
 
-- **Goal:** Train a frequency reconstruction network and utilise DAWN to remove/attenuate watermarks and evaluate attack success while preserving perceptual similarity (LPIPS / CLIP / PSNR / SSIM etc).
+- **Goal:** Train a frequency reconstruction network and utilise our model to remove/attenuate watermarks and evaluate attack success while preserving perceptual similarity (LPIPS / CLIP / PSNR / SSIM etc).
 - **Workflow:**
   1. Prepare dataset to train the model (take clean images/unwatermarked). 
   2. Train model(s) with `freq_reconstruction.py` — this saves model weights. example here: https://drive.google.com/file/d/1vQ573ZoJy04CGLVi7liBFSGQv4KqKrQd/view?usp=sharing
