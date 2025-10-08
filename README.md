@@ -29,5 +29,4 @@ python final_exp_ours.py --run_name no_attack --w_channel 3 --w_pattern ring --s
 
 ## Attack results
 
-Example set of attacked images 
 ![Our Attack](dataset/attacked.png)
