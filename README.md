@@ -1,9 +1,6 @@
 ## DAWN 
 
-
-
-
-This repository contains code to train frequency-domain reconstruction models and run single-shot attacks on Tree-Ring style watermarks.  
+This repository contains code to run single-shot attacks on watermarked images.  
 Files of interest:
 
 - `freq_reconstruction.py` — training script for the frequency reconstruction model. Running with different hyperparameter settings produces different model weight files.
@@ -13,9 +10,9 @@ Files of interest:
 
 ## Quick overview
 
-- **Goal:** Train a frequency reconstruction network to remove/attenuate Tree-Ring frequency watermarks and evaluate attack success while preserving perceptual similarity (LPIPS / CLIP / PSNR / SSIM etc).
+- **Goal:** Train a frequency reconstruction network and utilise DAWN to remove/attenuate watermarks and evaluate attack success while preserving perceptual similarity (LPIPS / CLIP / PSNR / SSIM etc).
 - **Workflow:**
-  1. Prepare dataset to train the model.
+  1. Prepare dataset to train the model (take clean images/unwatermarked). 
   2. Train model(s) with `freq_reconstruction.py` — this saves model weights. example here: https://drive.google.com/file/d/1vQ573ZoJy04CGLVi7liBFSGQv4KqKrQd/view?usp=sharing
   3. Run attacks and evaluation with `final_exp_ours.py`, pointing it to the saved weights.
   4. Gather results (CSV / logs / figures).
@@ -32,4 +29,5 @@ python final_exp_ours.py --run_name no_attack --w_channel 3 --w_pattern ring --s
 
 ## Attack results
 
-Example set of attacked images can be found in dataset folder
+Example set of attacked images 
+![Our Attack](dataset/attacked.png)
