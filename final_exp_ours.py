@@ -22,7 +22,7 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-from idea1_2_vae import *
+from freq_reconstruction import *
 
 
 recon_model = SimpleDCTReconstructor()
