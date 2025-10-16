@@ -13,7 +13,7 @@ Files of interest:
 - **Goal:** Train a frequency reconstruction network and utilise our model to remove/attenuate watermarks and evaluate attack success while preserving perceptual similarity (LPIPS / CLIP / PSNR / SSIM etc).
 - **Workflow:**
   1. Prepare dataset to train the model (take clean images/unwatermarked). 
-  2. Train model(s) with `freq_reconstruction.py` — this saves model weights. example here: https://drive.google.com/file/d/1vQ573ZoJy04CGLVi7liBFSGQv4KqKrQd/view?usp=sharing
+  2. Train model(s) with `freq_reconstruction.py` — this saves model weights. example here: https://drive.google.com/file/d/1vQ573ZoJy04CGLVi7liBFSGQv4KqKrQd/view?usp=sharing (for noise_std = 0.2 and target_band = high)
   3. Run attacks and evaluation with `final_exp_ours.py`, pointing it to the saved weights.
   4. Gather results (CSV / logs / figures).
 
