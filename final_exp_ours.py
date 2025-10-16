@@ -46,7 +46,7 @@ def attack_pix(idx, orig_image_w, pipe, text_embeddings, args, gt_patch, waterma
 
     # # Run reconstruction model
     # with torch.no_grad():
-    #     noisy_img = add_high_frequency_noise(img_tensor, noise_std=0.6, target_band='mid')
+    #     noisy_img = add_high_frequency_noise(img_tensor, noise_std=0.2, target_band='high')
     #     # masked_dct = freq_mask(noisy_img)
     #     dct_recon = recon_model(noisy_img)
 
@@ -126,7 +126,7 @@ def attack(idx, orig_image_w, pipe, text_embeddings, args, gt_patch, watermarkin
 
     # Run reconstruction model
     with torch.no_grad():
-        noisy_img = add_high_frequency_noise(img_tensor, noise_std=0.6, target_band='mid')
+        noisy_img = add_high_frequency_noise(img_tensor, noise_std=0.2, target_band='high')
         # masked_dct = freq_mask(noisy_img)
         dct_recon = recon_model(noisy_img)
 
