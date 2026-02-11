@@ -29,4 +29,5 @@ python final_exp_ours.py --run_name no_attack --w_channel 3 --w_pattern ring --s
 
 ## Attack results
 
-![Our Attack](dataset/attacked.png)
+![Our Attack](dataset/Untitled Diagram.drawio-16.png)
+
