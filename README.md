@@ -4,7 +4,7 @@ This repository contains code to run single-shot attacks on watermarked images.
 Files of interest:
 
 - `freq_reconstruction.py` — training script for the frequency reconstruction model. Running with different hyperparameter settings produces different model weight files.
-- `final_exp_ours.py` — main attack / evaluation script that uses trained weights to run attacks and compute evaluation metrics, this is built for Tree-ring watermarks
+- `final_exp_ours.py` — main attack / evaluation script that uses trained weights to run attacks with style transfer component and compute evaluation metrics, this is built for Tree-ring watermarks
 
 ---
 
