@@ -27,8 +27,13 @@ Run the following command.
 
 python final_exp_ours.py --run_name no_attack --w_channel 3 --w_pattern ring --start 0 --end 1000 --with_tracking --reference_model ViT-g-14 --reference_model_pretrain laion2b_s12b_b42k
 
-## Attack results
+## Attack results across watermarking methods
 
 ![Our Attack](dataset/attack_results.png)
+
+---
+
+## Attack results on Tree-ring watermark
+
 ![Our Attack results on Tree-ring](dataset/attack_results2.png)
 
