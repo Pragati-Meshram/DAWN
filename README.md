@@ -12,6 +12,7 @@ If you find this work useful in your research, please cite:
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2510.07538}
 }
+```
 
 ## Dual Domain Regeneration Attack  
 
