@@ -1,12 +1,16 @@
 ## Citation
+
+If you find this work useful in your research, please cite:
+
+```bibtex
 @misc{meshram2026lowcomputewatermarkremovaldualdomain,
-      title={Low-Compute Watermark Removal via Dual-Domain Natural Projection}, 
+      title={Low-Compute Watermark Removal via Dual-Domain Natural Projection},
       author={Pragati Shuddhodhan Meshram and Varun Chandrasekaran},
       year={2026},
       eprint={2510.07538},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.07538}, 
+      url={https://arxiv.org/abs/2510.07538}
 }
 
 ## Dual Domain Regeneration Attack  
